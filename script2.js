@@ -76,7 +76,7 @@ const imgDefaultProd = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk
                 
                 section.innerHTML = `
                     <div class="category-header">
-                        <h2 class="category-title">${catName}</h2>
+                        <h2 class="category-title">${catName.toUpperCase()}</h2>
                     </div>
                     <div class="products-grid">
                         ${categoriesMap[catName].map(item => {
